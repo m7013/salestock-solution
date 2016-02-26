@@ -3,7 +3,6 @@
 Lang: Java (version 1.8)
 
 ## 01-AgeSorter-10M-Rows
-=====================
 - How to produce sorted_age.txt:
 ```java AgeSorter < age.txt > sorted_age.txt```
 
@@ -23,13 +22,11 @@ user	0m19.406s
 sys	0m0.092s
 
 
-### 02-AgeSorter-7B-Rows
-====================
+## 02-AgeSorter-7B-Rows
 - Solved using solution no.01 (no modification in file)
 - Execution time to do sorting 7B rows: 700 * 59.964 second = ~ 11.6 hours 
 
 ## 03-BlacklistedUser-1M-Rows
-==========================
 - Execution time of check_blacklist
 ```time java BlacklistChecker```
 true
