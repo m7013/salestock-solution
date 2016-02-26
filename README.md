@@ -43,4 +43,6 @@ real	0m7.346s
 user	0m7.268s
 sys		0m0.052s
 
- 
+### Why use HashMap ?
+A: In Java 8, when we have too many unequal keys which gives same hashcode(index), when the number of items in a hash bucket grows beyond certain threshold (TREEFY_THRESHOLD = 8), content of that bucket swicthes from using a 'linked list' of Entry objects to do a 'balanced tree'. This theoritically improves the worst-case performance from O(n) to O(log n).
+https://www.youtube.com/watch?v=c3RVW3KGIIE
