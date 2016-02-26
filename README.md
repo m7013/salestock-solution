@@ -2,46 +2,46 @@
 
 Lang: Java (version 1.8)
 
-01-AgeSorter-10M-Rows
+## 01-AgeSorter-10M-Rows
 =====================
 - How to produce sorted_age.txt:
-java AgeSorter < age.txt > sorted_age.txt
+```java AgeSorter < age.txt > sorted_age.txt```
 
 - Execution time to produce sorted_age.txt
-time java AgeSorter < age.txt > sorted_age.txt
+```time java AgeSorter < age.txt > sorted_age.txt```
 real	0m59.964s
 user	0m26.941s
 sys	0m32.187s
 
 - How to generate age.txt 
-python ageGen.py > age.txt
+```python ageGen.py > age.txt```
 
 - Execution time to generate age.txt
-time python ageGen.py > age.txt
+```time python ageGen.py > age.txt```
 real	0m19.568s
 user	0m19.406s
 sys	0m0.092s
 
 
-02-AgeSorter-7B-Rows
+### 02-AgeSorter-7B-Rows
 ====================
 - Solved using solution no.01 (no modification in file)
 - Execution time to do sorting 7B rows: 700 * 59.964 second = ~ 11.6 hours 
 
-03-BlacklistedUser-1M-Rows
+## 03-BlacklistedUser-1M-Rows
 ==========================
-- Execution time check_blacklist
-time java BlacklistChecker
+- Execution time of check_blacklist
+```time java BlacklistChecker```
 true
 real	0m1.902s
 user	0m4.024s
 sys	0m0.249s
 
 - How to generate blacklist.txt:
-python genBlacklisUser.py > blacklist.txt
+```python genBlacklisUser.py > blacklist.txt```
 
 - Execution time to generate blacklist.txt
-time python genBlacklisUser.py > blacklist.txt
+```time python genBlacklisUser.py > blacklist.txt```
 real	0m7.346s
 user	0m7.268s
 sys		0m0.052s
