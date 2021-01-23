@@ -25,10 +25,7 @@ public class AgeSorter{
 				for (int j = 0; j < currentVal; j++)
 					System.out.println(age);
 			}
-			// if (currentVal != null)
-			// 	total += currentVal;
 		}
-		//System.out.println("totalVal : " + total);
 	}
 }
 
